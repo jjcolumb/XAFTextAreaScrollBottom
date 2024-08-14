@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems NavigationStyle="Accordion" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="23.1.9.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor">
+    <DetailView Id="Test_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SizeableEditors">
+            <LayoutItem Id="Body" CustomCSSClassName="xari" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
